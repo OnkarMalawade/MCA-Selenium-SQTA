@@ -1,0 +1,13 @@
+firstName 
+First Name
+input
+
+lastName
+Last Name
+input
+
+tag : textarea
+id : currentAddress
+class : form-control
+placeholder : Current Address
+

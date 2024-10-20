@@ -1,0 +1,8 @@
+Syntax :
+tagName[attributename = 'attributevalue']
+
+Example : 
+input[id = "email"]
+
+(.) dot refers to class attribute
+(#) refers to the Id attribute
