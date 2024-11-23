@@ -1,0 +1,7 @@
+<suite name="Package Suite" verbose="1">
+	<test name="Package Test">
+		<classes>
+			<class name="demo.LinearScriptingTest"/>
+		</classes>
+	</test>
+</suite>

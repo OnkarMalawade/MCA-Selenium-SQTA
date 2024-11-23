@@ -1,0 +1,34 @@
+<suite name="First Suite" verbose="1">
+	<test name="First Test">
+		<classes>
+			<class name="firstPackage.firstClass"/>
+			<methods>
+				<include name="firstMethod"/>
+			</methods>
+		</classes>
+	</test>
+	<test name="Second Test">
+		<classes>
+			<class name="firstPackage.secondClass"/>
+			<methods>
+				<include name="firstMethod"/>
+			</methods>
+		</classes>
+	</test>
+		<test name="Third Test">
+		<classes>
+			<class name="secondPackage.firstClass"/>
+			<methods>
+				<include name="firstMethod"/>
+			</methods>
+		</classes>
+	</test>
+	<test name="Fourth Test">
+		<classes>
+			<class name="secondPackage.secondClass"/>
+			<methods>
+				<include name="firstMethod"/>
+			</methods>
+		</classes>
+	</test>
+</suite>

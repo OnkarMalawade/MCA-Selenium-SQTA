@@ -1,0 +1,7 @@
+<suite name="Regression Suite" verbose="1">
+	<test name="Regression Test">
+		<classes>
+			<class name="demo.RegressionTesting"/>
+		</classes>
+	</test>
+</suite>

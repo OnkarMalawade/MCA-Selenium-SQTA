@@ -1,0 +1,9 @@
+<suite name="ReviewSuite">
+    <test name="CalculateAverageTest">
+        <parameter name="reviewer1Marks" value="5" />
+        <parameter name="reviewer2Marks" value="4" />
+        <classes>
+            <class name="demo.ReviewTest" />
+        </classes>
+    </test>
+</suite>

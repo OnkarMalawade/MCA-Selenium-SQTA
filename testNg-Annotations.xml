@@ -1,0 +1,21 @@
+<suite name="Annotations Suite" verbose="1">
+	<test name="first test case">
+		<classes>
+			<class name="AnnotationsTesting">
+				<methods>
+					<include name="testOneMethod"/>
+					<include name="testTwoMethod"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="second test case">
+		<classes>
+			<class name="AnnotationsTesting">
+				<methods>
+					<include name="testThreeMethod"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

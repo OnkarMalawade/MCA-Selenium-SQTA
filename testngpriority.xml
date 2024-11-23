@@ -1,0 +1,8 @@
+
+<suite name="SuiteWithPriority" verbose="1">
+    <test name="PriorityTest">
+        <classes>
+            <class name="demo.TestNGPriorityExample" />
+        </classes>
+    </test>
+</suite>

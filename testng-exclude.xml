@@ -1,0 +1,18 @@
+<suite name="First Suite" verbose="1">
+	<test name="First Test">
+		<classes>
+			<class name="firstPackage.firstClass"/>
+			<methods>
+				<exclude name="secondMethod"/>
+			</methods>
+		</classes>
+	</test>
+	<test name="Second Test">
+		<classes>
+			<class name="secondPackage.firstClass"/>
+			<methods>
+				<exclude name="secondMethod"/>
+			</methods>
+		</classes>
+	</test>
+</suite>

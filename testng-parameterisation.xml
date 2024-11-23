@@ -1,0 +1,33 @@
+<suite name="Test Parameterization Suite" verbose="1">
+    <parameter name="suite-param" value="suite level parameter" />
+    <test name="Parameter Test One">
+        <classes>
+            <class name="demo.Parameterization">
+                <methods>
+                    <include name="parametersTestOne" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Parameter Test Two">
+        <parameter name="test-two-params" value="Test suite level Two parameter" />
+        <classes>
+            <class name="demo.Parameterization">
+                <methods>
+                    <include name="parametersTestTwo" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Parameter Test Three">
+        <parameter name="suite-param" value="Overriding suite parameter"/>
+        <parameter name="test-three-param" value="Test Three suite parameter"/>
+        <classes>
+            <class name="demo.Parameterization">
+                <methods>
+                    <include name="parametersTestThree"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
